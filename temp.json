@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": ".\\node_modules\\.bin\\nodemon ./src/index.ts",
+    "build": ".\\node_modules\\.bin\\tsc --project ./tsconfig.json",
+    "test": ".\\node_modules\\.bin\\jest --runInBand -c ./jest.unit.ts --collectCoverage false",
+    "test:coverage": ".\\node_modules\\.bin\\jest --runInBand -c ./jest.unit.ts --coverage"
+  }
+}
